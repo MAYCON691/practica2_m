@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004085;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido */
+main {
+    padding: 40px;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #004085;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    border-bottom: 3px solid #e5e7eb;
+    padding-bottom: 10px;
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #004085;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9fafb;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #004085;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: #004085;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #004085;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+/* Estilos adicionales */
+a {
+    color: #004085;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

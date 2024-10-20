@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Práctica N° 2 MAYCON APAZA CONDORI{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Práctica N° 2 MAYCON APAZA CONDORI</h1>
+        <nav>
+            <!-- <a href="{{ url_for('index') }}">Inicio</a> -->
+            <a href="{{ url_for('inscripcion') }}">Inscripción en Curso</a>
+            <a href="{{ url_for('usuarios') }}">Registro de Usuarios</a>
+            <a href="{{ url_for('productos') }}">Registro de Productos</a>
+            <a href="{{ url_for('libros') }}">Registro de Libros</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Práctica N° 2 MAYCON APAZA CONDORI</p>
+    </footer>
+</body>
+</html>
